@@ -7,7 +7,7 @@ html
     color:black !important;
 }
 .header-banner{
-    font-family: 'Lilita One', cursive ;
+    font-family: 'Lilita One' ;
     margin-top: 3rem;
     color: #ff3535;
     font-size: 6rem;
@@ -15,7 +15,7 @@ html
 .banner-desc{
     color: #d4cbe5;
     font-size: 2rem;
-    font-family: 'Lilita One', cursive ;
+    font-family: 'Lilita One';
 }
 .black {
    font-size: large;
