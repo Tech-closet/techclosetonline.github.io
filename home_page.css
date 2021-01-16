@@ -118,6 +118,7 @@ html
 }
 .black {
    font-size: large;
+   
 }
 .navbar-custom{
     background-color: white;
@@ -377,3 +378,15 @@ footer{
 .company-name-homepage-description{
     font-weight: 600;
 }
+.lilita-heading{
+    font-family: 'Lilita One' ;
+}
+.our-aim{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+} 
+/* #margin-aim{
+    margin-top: 30px !important;
+} */
