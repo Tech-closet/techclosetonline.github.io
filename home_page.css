@@ -266,7 +266,6 @@ margin: 1.0rem 0;
     text-align: center;
     color: #333;
 }
-@media screen and (max-width:)
 @media screen and (min-width: 700px)
 {
     .card-wrapper{
