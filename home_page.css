@@ -22,7 +22,17 @@ html
     transform: scale(2.2);
     margin-top:3rem;
     margin-left: 2rem;
-}  }
+}
+.feature-heading
+{
+    font-size: 3rem;
+    font-family: 'Lilita One' ;
+}
+.feature-description{
+    font-size: 1rem;
+    font-family: 'Roboto' ;
+} 
+ }
 @media(min-width:700px)
 {.card-feature-left{
     height:20rem;
@@ -43,6 +53,16 @@ html
     margin-left: 4rem;
     margin-left: 15%;
     margin-right: 15;
+}
+.feature-heading
+{
+    font-size: 4rem;
+    font-family: 'Lilita One' ;
+    
+}
+.feature-description{
+    font-size: 2rem;
+    font-family: 'Roboto' ;
 } }
 @media(min-width:991.99px)
 {.card-feature-left{
@@ -166,7 +186,7 @@ section
 .heading-feature
 {
     text-transform:uppercase;
-    font-size: 2rem;
+    font-size: 4rem;
     font-family:"";
     letter-spacing: 3px;
     margin-right: -3px;
@@ -185,7 +205,7 @@ section
     height: .8rem;
     background-color: #45e19f;
     position: absolute;
-    bottom: -2rem;
+    bottom: -4rem;
     left:50%;
     transform: translateX(-50%);
     border-radius: 2rem;
@@ -193,7 +213,7 @@ section
 .heading
 {
     text-transform:uppercase;
-    font-size: 2rem;
+    font-size: 4rem;
     font-family:"";
     letter-spacing: 3px;
     margin-right: -3px;
@@ -387,6 +407,11 @@ footer{
     padding-right: 1rem;
     padding-bottom: 0.5rem;
 } 
+.white{
+    color:white;
+    font-family: 'Lilita One';
+    font-size:1.5rem;
+}
 /* #margin-aim{
     margin-top: 30px !important;
 } */
