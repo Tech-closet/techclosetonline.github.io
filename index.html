@@ -7,6 +7,7 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link rel="stylesheet" href="home_page.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Montserrat:wght@800&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">   
@@ -23,6 +24,7 @@
         type = "image/x-icon"> 
 </head>
 <body class="dark-mode">
+  
       <nav class="navbar navbar-expand-lg  navbar-custom" color="white" class="font-monteserat" style="background-color: white; box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2)">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img height="50px" width="50px" src="https://raw.githubusercontent.com/bhatiagagan24/app_images/main/logo_circular.png?token=ALN2BFQSYBDFWHEA5AKXAD3AA7FWM"></a>
@@ -77,7 +79,7 @@
 <!--Banner-->
 <div class="container" id="banner">
   <div class="row">
-    <div class="col-md">
+    <div class="col-md" data-aos="zoom-in-right"   ata-aos-easing="ease-in-out">
       <h2 class = "header-banner">Tech Closet</h2>
       <p class="banner-desc">
         Managing your wardrobe has never been this easy.
@@ -105,12 +107,12 @@
 <div style="margin-bottom: 2%;">
 <div class="container" id="features">
   <div class="row">
-    <div class="col-md">
+    <div class="col-md" data-aos="fade-up"   ata-aos-easing="ease-in-out">
       <div class="card-feature-left">
         <img  class="card-img" src="https://raw.githubusercontent.com/Tech-closet/techclosetonline.github.io/main/App_Inventory.png" alt="background">
     </div>
     </div>
-    <div class="col-md"><p style="margin-top: 10%;">
+    <div class="col-md" data-aos="fade-left"  data-delay="2000" ata-aos-easing="ease-in-out"><p style="margin-top: 10%;">
       <h5 class="feature-heading" style="color:#a41fab;">Manage Inventory</h5>
       <h6 class="feature-description" style="color:#f7ac65;" >Add items with Add Item Button<br> 
       See through Inventory with a single glance</h6>
@@ -119,13 +121,13 @@
 </div>
 <div class="container" id="features">
   <div class="row">
-    <div class="col-md">
+    <div class="col-md" data-aos="fade-right"  data-delay="2000" ata-aos-easing="ease-in-out">
       <p style="margin-top: 10%;">
         <h5 class="feature-heading" style="color:#a41fab;">Search Through</h5>
       <h6 class="feature-description"  style="color:#f7ac65;">Find clothes without hassle<br> </h6>
       </p>
           </div>
-    <div class="col-md">
+    <div class="col-md" data-aos="fade-up"   ata-aos-easing="ease-in-out">
       <div class="card-feature-left">
         
         <img src="https://raw.githubusercontent.com/Tech-closet/techclosetonline.github.io/main/App_Search.png" alt="background" class="card-img">
@@ -135,12 +137,12 @@
 </div>
 <div class="container" id="features">
   <div class="row">
-    <div class="col-md">
+    <div class="col-md" data-aos="fade-up"   ata-aos-easing="ease-in-out">
       <div class="card-feature-left">
         <img src="https://raw.githubusercontent.com/Tech-closet/techclosetonline.github.io/main/app_outfit.png" alt="background" class="card-img">
     </div>
     </div>
-    <div class="col-md"><p style="margin-top: 10%;">
+    <div class="col-md" data-aos="fade-left"  data-delay="2000" ata-aos-easing="ease-in-out"><p style="margin-top: 10%;">
       <h5 class= "feature-heading" style="color:#7adccf;">Be Creative!</h5>
       <h6 class="feature-description"  style="color:#f7ac65;">Manage, Create and View your outfits created <br>
         by your Creativity.
@@ -151,7 +153,7 @@
 
 <div class="container" id="features">
   <div class="row">
-    <div class="col-md">
+    <div class="col-md" data-aos="fade-right"  data-delay="2000" ata-aos-easing="ease-in-out">
       <p style="margin-top: 10%;">
         <h5 class="feature-heading" style="color:#7adccf;">Clothes</h5>
         <h6 class="feature-description"  style="color:#f7ac65;">Log your own progress<br> 
@@ -160,7 +162,7 @@
           Finding Clothes never been more easier.
       </p>
           </div>
-    <div class="col-md" >
+    <div class="col-md" data-aos="fade-up"   ata-aos-easing="ease-in-out">
       <div class="card-feature-left">
         <img src="https://raw.githubusercontent.com/Tech-closet/techclosetonline.github.io/main/app_machine.png" alt="background" class="card-img">
     </div>
@@ -171,10 +173,10 @@
 
 <!-- <div class="jumbotron"> -->
 <div class="container" id="about" style="text-align: center; align-content: center;">
-  <div class="company-aim">
+  <div class="company-aim" data-aos="fade-up" data-duration="400"  ata-aos-easing="ease-in-out">
     <h5 class="heading">What we aim to Achieve</h5>
   </div>
-  <div class="company-aim jumbotron our-aim" style="background-color: #c2aaf0;border-radius: 2rem;">
+  <div class="company-aim jumbotron our-aim" style="background-color: #c2aaf0;border-radius: 2rem;" data-aos="fade-up"   ata-aos-easing="ease-in-out">
     <div>
     <p id="margin-aim" class="white">Provide you a personal companion for your management of closet.</p>
     <p class="white">Provide you with choices of clothes to personalize your closet better.</p>
@@ -183,8 +185,8 @@
   </div>  </div>
   <section>
     <div class="container dark-mode">
-        <h5 class="heading"> Meet the Team</h5>
-        <div class= "card-wrapper">
+        <h5 class="heading" data-aos="fade-up" data-duration="400"  ata-aos-easing="ease-in-out"> Meet the Team</h5>
+        <div class= "card-wrapper" data-aos="fade-right"  data-delay="2000" ata-aos-easing="ease-in-out">
             <div class="card">
                 <img src="https://raw.githubusercontent.com/bhatiagagan24/app_images/main/color.png?token=ALN2BFQZ7Y6HPUQR5AFR6VLABGZBY" alt="background" class="card-img-profile">
                 <img src="https://raw.githubusercontent.com/Tech-closet/techclosetonline.github.io/main/IMG_20210116_200307.jpg" alt="profile" class="profile-img">
@@ -232,8 +234,8 @@
 </div>
 
 <!-- The bottom navbar code is here : - -->
-<div class="container" style="margin-top: 2%; margin-bottom: 2%; background-color: #ff3535; border-radius: 1em; width: 100%;">
-  <div class="row">
+<div class="container" style="margin-top: 2%; margin-bottom: 2%; background-color: #ff3535; border-radius: 1em; width: 100%;"  >
+  <div class="row" >
     <div class="col-md left-navbar" style="text-align: left;">
       <img src="banner_footer.png" class="footer-image">
       <!-- <ul style="list-style-type:none;"> -->
@@ -257,5 +259,13 @@
 
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset:300,
+      duration:800,
+      delay:500
+    });
+  </script>
 </body>
 </html>
