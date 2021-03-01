@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="stylesheet" href="home_page.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Montserrat:wght@800&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">   
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Poppins:ital,wght@1,800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Tech Closet</title>
+<link rel = "icon" href =  
+"https://raw.githubusercontent.com/Tech-closet/techclosetonline.github.io/main/logo_circular.png" 
+        type = "image/x-icon"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <style>
+            .cookie-banner {
+  position: fixed;
+  bottom: 40px;
+  left: 10%;
+  right: 10%;
+  width: 80%;
+  padding: 5px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #eee;
+  border-radius: 5px;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+.close {
+  height: 20px;
+  background-color: #777;
+  border: none;
+  color: white;
+  border-radius: 2px;
+  cursor: pointer;
+}
+        </style>
+</head>
+<body>
+  
+      <nav class="navbar navbar-fixed-top navbar-expand-lg  navbar-custom " color="white" class="font-monteserat" style="background-color: white; box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2)">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img height="50px" width="50px" src="https://raw.githubusercontent.com/Tech-closet/techclosetonline.github.io/main/logo_circular.png"></a>
+          <button class="navbar-toggler navbar-custom" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list-nested" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M4.5 11.5A.5.5 0 0 1 5 11h10a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 1 3h10a.5.5 0 0 1 0 1H1a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarText">
+            <ul class="navbar-nav navbar-right me-auto mb-2 mb-lg-0">
+             <li class="nav-item" id="font-monteserat"> 
+          
+                <a class="nav-link black" style="color: black;">Tech Closet</a>
+          </li>
+            
+              <li class="nav-item">
+                <a class="nav-link" href="#features">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Us</a>
+              </li>
+     
+              
+            </ul>
+            <!-- font to be changed to Montserrat -->
+            
+          </div>
+        </div>
+      </nav>
+
+
+<div class="container">
+    <body lang="en-IN" link="#0000ff" vlink="#800000" dir="ltr"><p class="western" style="margin-top: 0.9cm; margin-bottom: 0.45cm; line-height: 100%; background: #ffffff">
+        <font color="#333333"><font face="SF Compact Display, serif"><font size="4" style="font-size: 13pt">Introduction:</font></font></font></p>
+        <p class="western" style="margin-top: 0.45cm; margin-bottom: 0.49cm; line-height: 0.64cm; background: #ffffff">
+        <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt"><b>Welcome
+        to Tech Closet. We want you to know and understand your rights and
+        our rights relating to the provision of the Services (as defined
+        below). Please review them carefully. Here are a few highlights:</b></font></font></font></p>
+        <ul>
+            <li><p class="western" style="margin-top: 0.49cm; margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">Your
+            privacy is critically important to us. Please note that we respect
+            the privacy and confidentiality of such data and the provisions
+            pertaining to such private information and data as provided by you
+            under these Terms are governed under platform&rsquo;s privacy policy
+            (&ldquo;Privacy Policy&rdquo;). See how we collect and use your
+            personal information in our&nbsp;Privacy Policy.</font></font></font></p>
+            <li><p class="western" style="margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">You
+            can cancel your membership or delete your account at any time.</font></font></font></p>
+            <li><p class="western" style="margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">You
+            own your content, but give us a right to use it.</font></font></font></p>
+            <li><p class="western" style="margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">We
+            expect our members to act with respect and we can cancel your
+            account if you act inappropriately.</font></font></font></p>
+            <li><p class="western" style="margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">Tech
+            Closet is not liable for your activities and no warranties are made
+            by Tech Closet.</font></font></font></p>
+            <li><p class="western" style="margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">We
+            can cancel your account if you act inappropriately.</font></font></font></p>
+            <li><p class="western" style="margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">We
+            want your feedback, and you allow us to use it.</font></font></font></p>
+            <li><p class="western" style="margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">There
+            are easy ways to reach us if you have questions or need help.</font></font></font></p>
+        </ul>
+        <p class="western" style="margin-top: 0.9cm; margin-bottom: 0.45cm; line-height: 100%; background: #ffffff">
+        <font color="#333333"><font face="SF Compact Display, serif"><font size="4" style="font-size: 13pt">Company
+        Information</font></font></font></p>
+        <p class="western" style="margin-top: 0.45cm; margin-bottom: 0.49cm; line-height: 0.64cm; background: #ffffff">
+        <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">TECH
+        CLOSET TECHNOLOGIES LLP, (hereinafter referred as &ldquo;Tech
+        Closet&rdquo;, &ldquo;The Company&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;
+        or &ldquo;our&rdquo;), a limited liability partnership incorporated
+        and existing under the Laws of India and having its registered office
+        at Shop at </font></font></font><font color="#ff0000"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">741,
+        6</font></font></font><font color="#ff0000"><sup><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">th</font></font></sup></font><font color="#ff0000"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">
+        Avenue, Gaur City 1,Greater Noida West, Gautam Buddh Nagar, Uttar
+        Pradesh &ndash; 201308 </font></font></font><font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">and
+        are engaged in a business of providing solutions and services related
+        to web technologies, software application, web application, online
+        advertisements, travel planning etc.</font></font></font></p>
+        <p class="western" style="margin-top: 0.9cm; margin-bottom: 0.45cm; line-height: 100%; background: #ffffff">
+        <font color="#333333"><font face="SF Compact Display, serif"><font size="4" style="font-size: 13pt">Policy</font></font></font></p>
+        <ol>
+            <li><p class="western" style="margin-top: 0.49cm; margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">These
+            Terms and Conditions Policy (hereinafter referred as &ldquo;Terms&rdquo;,
+            &ldquo;Terms and Conditions&rdquo;) applies to use of this website,
+            platform, application and/or use of our services (hereinafter
+            referred as&nbsp;</font></font></font><font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt"><b>&ldquo;Services&rdquo;</b></font></font></font><font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">).
+            For the purpose of these Terms herein above, wherever the context so
+            requires the term&nbsp;</font></font></font><font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt"><b>&ldquo;You&rdquo;</b></font></font></font><font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">,&nbsp;</font></font></font><font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt"><b>&ldquo;Your&rdquo;
+            or &ldquo;User&rdquo;</b></font></font></font><font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">,
+            shall mean any person who avails Services from us. Please read these
+            Terms and Conditions carefully before using our Services.</font></font></font></p>
+            <li><p class="western" style="margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">Your
+            access to and use of the Service is conditioned on your acceptance
+            of and compliance with these Terms. These Terms shall apply to all
+            visitors, users and others who access or use the Service.</font></font></font></p>
+            <li><p class="western" style="margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">By
+            accessing or using the Service you agree to be bound by these Terms.
+            If you disagree with any part of the terms, then you may not access
+            the Service.</font></font></font></p>
+        </ol>
+        <p class="western" style="margin-top: 0.9cm; margin-bottom: 0.45cm; line-height: 100%; background: #ffffff">
+        <font color="#333333"><font face="SF Compact Display, serif"><font size="4" style="font-size: 13pt">General
+        Disclaimer</font></font></font></p>
+        <ol>
+            <li><p class="western" style="margin-top: 0.49cm; margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">Although
+            Tech Closet has attempted to provide accurate information on the
+            website, Tech Closet assumes no responsibility for the accuracy of
+            the information. Tech Closet may change the programs or products
+            mentioned at any time without notice.</font></font></font></p>
+            <li><p class="western" style="margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">All
+            information provided on this web site is provided &ldquo;as is&rdquo;
+            with all faults without warranty of any kind, either expressed or
+            implied.</font></font></font></p>
+        </ol>
+        <p class="western" style="margin-top: 0.9cm; margin-bottom: 0.45cm; line-height: 100%; background: #ffffff">
+        <font color="#333333"><font face="SF Compact Display, serif"><font size="4" style="font-size: 13pt">Content</font></font></font></p>
+        <ol>
+            <li><p class="western" style="margin-top: 0.49cm; margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">Our
+            Service allows you to post, link, store, share and otherwise make
+            available certain information, text, graphics, videos, or other
+            material (&ldquo;Content&rdquo;). You are responsible for the
+            Content that you post to the Service, including its legality,
+            reliability, and appropriateness.</font></font></font></p>
+            <li><p class="western" style="margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">By
+            posting Content to the Service, you grant us the right and license
+            to use, modify, publicly perform, publicly display, reproduce, and
+            distribute such Content on and through the Service. You retain any
+            and all of your rights to any Content you submit, post or display on
+            or through the Service and you are responsible for protecting those
+            rights. You agree that this license includes the right for us to
+            make your Content available to other users of the Service, who may
+            also use your Content subject to these Terms.</font></font></font></p>
+            <li><p class="western" style="margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">You
+            represent and warrant that: (i) the Content is yours (you own it) or
+            you have the right to use it and grant us the rights and license as
+            provided in these Terms, and (ii) the posting of your Content on or
+            through the Service does not violate the privacy rights, publicity
+            rights, copyrights, contract rights or any other rights of any
+            person.</font></font></font></p>
+        </ol>
+        <p class="western" style="margin-top: 0.9cm; margin-bottom: 0.45cm; line-height: 100%; background: #ffffff">
+        <br/>
+        <br/>
+        
+        </p>
+        <p class="western" style="margin-top: 0.9cm; margin-bottom: 0.45cm; line-height: 100%; background: #ffffff">
+        <font color="#333333"><font face="SF Compact Display, serif"><font size="4" style="font-size: 13pt">CODE
+        OF CONDUCT</font></font></font></p>
+        <ol>
+            <li><p class="western" style="margin-top: 0.49cm; margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">Under
+            these Terms, You agree not to host, display, upload, modify,
+            publish, transmit, update or share any information that: (a) belongs
+            to another person and in relation to which it does not have any
+            right of use; (b) infringes intellectual property rights (including
+            any patent, trademark, copyright or other proprietary rights) of any
+            person and privacy rights of any person; (c) is false or misleading
+            in any way; (d) violates any law for time being in force; (e)
+            harasses or advocates harassment of another person; (f) involves the
+            transmission of &ldquo;junk mail&rdquo;, &ldquo;chain mail&rdquo; or
+            unsolicited mass mailing or &ldquo;spamming&rdquo;; (g) promotes
+            illegal activities or abusive, obscene, defamatory or libellous
+            conduct; (h) solicits gambling or engages in any gambling activity
+            which is or could be construed as being illegal; (i) harms minors in
+            any way; (j) is grossly harmful, harassing, blasphemous, defamatory,
+            obscene, pornographic, paedophilic, libellous, invasive of another&rsquo;s
+            privacy, hateful, or racially, ethnically objectionable,
+            disparaging, relating or encouraging money laundering or gambling,
+            or otherwise unlawful in any manner whatever; or unlawfully
+            threatening or unlawfully harassing including but not limited to
+            &ldquo;indecent representation of women&rdquo; within the meaning of
+            the Indecent Representation of Women (Prohibition) Act, 1986; (k)
+            deceives or misleads the other Users of the platform about the
+            origin of messages or communicates any information which is grossly
+            offensive or menacing in nature; (l) threatens the unity, integrity,
+            defence, security or sovereignty of India, friendly relations with
+            foreign states, or public order or causes incitement to the
+            commission of any cognizable offence or prevents investigation of
+            any offence or is insulting any other nation; (m) promotes an
+            illegal or unauthorized copy of another person's copyrighted work;
+            (n) provides material that exploits people in a sexual, violent or
+            otherwise inappropriate manner or solicits personal information from
+            anyone; (o) provides instructional information about illegal
+            activities such as making or buying illegal weapons, violating
+            someone&rsquo;s privacy, or providing or creating computer viruses;
+            (p) tries to gain unauthorized access or exceeds the scope of
+            authorized access to the platform or to profiles, blogs,
+            communities, account information, bulletins, friend request, or
+            other areas of the platform or solicits passwords or personal
+            identifying information for commercial or unlawful purposes from
+            other users; and (q) refers to any website or URL that, in our sole
+            discretion, contains material that is inappropriate for the platform
+            or any other website, application, software contains content that
+            would be prohibited or violates the letter or spirit of these Terms.</font></font></font></p>
+            <li><p class="western" style="margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">You
+            agree not to (a) reveal/disclose confidential or proprietary
+            information of other Users, the Company or any third party when the
+            User receives or comes in possession of such confidential or
+            proprietary information; (b) incorporate any computer contaminant,
+            software virus or any computer code or file or program on the
+            platform designed to interrupt, destroy or limit the functionality
+            of the platform; (c) incorporate or introduce any program on the
+            platform of the Company that might infringe the intellectual
+            property rights of any other User and/or of the Company; (d)
+            download, copy, reproduce any file or information available on the
+            Company&rsquo;s platform which the User knows, or reasonably should
+            know, cannot be legally reproduced, displayed, performed, and/or
+            distributed; (e) in any way, deface or vandalize the platform or
+            prevent or restrict others from using the platform; (f) stalk,
+            threaten or harass any other User or infringe upon or attempt to
+            infringe upon their privacy; (g) infringe any patent, trademark,
+            copyright or other proprietary rights or third party&rsquo;s trade
+            secrets or rights of publicity or privacy, of the Company, other
+            Users of the platform or any third Party; (h) impersonate any person
+            or entity, or falsely state or otherwise misrepresent themselves or
+            their affiliation with any person or entity; (i) directly or
+            indirectly, offer, attempt to offer, trade or attempt to trade in
+            any item, the dealing of which is prohibited or restricted in any
+            manner under the provisions of any applicable law, rule, regulation
+            or guideline for the time being in force; and (j) create liability
+            for the Company or cause the Company to lose (in whole or in part)
+            the services of its internet service provider or other suppliers.</font></font></font></p>
+            <li><p class="western" style="margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">It
+            is also clarified that you shall not use any &ldquo;deep-link&rdquo;,
+            &ldquo;page-scrape&rdquo;, &ldquo;robot&rdquo;, &ldquo;spider&rdquo;
+            or other automatic device, program, algorithm or methodology, or any
+            similar or equivalent manual process, to access, acquire, copy or
+            monitor any portion of the platform, or in any way reproduce or
+            circumvent the navigational structure or presentation of the Company
+            or any Service, to obtain or attempt to obtain any materials,
+            documents or information through any means not purposely made
+            available through the platform of the Company. We reserve the right
+            to bar any such activity.</font></font></font></p>
+            <li><p class="western" style="margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">You
+            agree that you shall not attempt to gain unauthorized access to any
+            portion or feature of the platform or any feature pertaining to
+            availing of Services or any other systems or networks connected to
+            the platform or to any server, computer, network, or to any Services
+            offered on or through the platform of the Company, by hacking,
+            password &ldquo;mining&rdquo; or any other illegitimate means.</font></font></font></p>
+            <li><p class="western" style="margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">You
+            agree that you shall not probe, scan or test the vulnerability of
+            the platform or any network connected to the platform of the Company
+            nor breach the security or authentication measures on the platform
+            or any network connected to the platform. You may not reverse
+            look-up, trace or seek to trace any information on any other User of
+            or visitor to platform, or any other client/customer/user/member of
+            the Company including any account on the platform not
+            owned/operated/managed by you, to its source, or exploit the
+            platform or information made available or offered by or through the
+            platform, in any way where the purpose is to reveal any information,
+            including but not limited to personal identification or information,
+            other than your own information, as provided for by the platform.</font></font></font></p>
+            <li><p class="western" style="margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">You
+            agree that you shall not make any negative, denigrating or
+            defamatory statement and/or comment about the Company or the
+            Services or the brand name or domain name used by the Company or
+            otherwise engage in any conduct or action that might tarnish the
+            image or reputation of the Company or other Users on the platform of
+            the Company or other business partners of the Company or otherwise
+            tarnish or dilute any of the Company&rsquo;s trade or service marks,
+            trade names and/or goodwill associated with such trade or service
+            marks, trade name as may be owned or used by the platform.</font></font></font></p>
+            <li><p class="western" style="margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">You
+            agree that you will not use the platform or any content thereof for
+            any purpose which is unlawful or prohibited by the Terms or to
+            solicit the performance of any illegal activity or other activity
+            which infringes the rights of the Company/, its Users and/or others
+            third parties.</font></font></font></p>
+            <li><p class="western" style="margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">In
+            the event, we have reasonable grounds to believe that your
+            activities include any of the acts specified above, we may initiate
+            appropriate legal action against you as well as notify the relevant
+            regulatory or law enforcement authorities where appropriate in
+            addition to any other available remedies under law or equity, apart
+            from restricting or suspending or terminating your use of the
+            platform.</font></font></font></p>
+            <li><p class="western" style="margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">You
+            agree that you shall, at all times, ensure full compliance with the
+            applicable provisions of the Information Technology Act, 2000, and
+            the rules thereunder as applicable and as amended from time to time
+            and, also all applicable laws, rules and regulations and
+            international laws, statutes, ordinances and regulations regarding
+            use of Services. Further, you agree that you shall not solicit
+            (directly or indirectly) any other Users of the platform to avail
+            the Services of the Platform being displayed on the platform, either
+            independently or through a third party except through the Company.</font></font></font></p>
+            <li><p class="western" style="margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">The
+            User shall indemnify and hold harmless the Company, its owners,
+            licensees, affiliates, subsidiaries, group companies (as applicable)
+            and their respective officers, directors, agents, and employees,
+            from all losses, claims, damages, penalties, costs, expenses,
+            demands, actions (including reasonable attorneys&rsquo; fees)
+            suffered or incurred by the Company due to or arising out of breach
+            of these Terms and other policies of the platform.</font></font></font></p>
+            <li><p class="western" style="margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">To
+            enable use of your information supplied by you to us, so that use of
+            any such information by us is not construed as a violation of any
+            rights, you agree to grant us a non-exclusive, worldwide, perpetual,
+            irrevocable, royalty-free, sub-licensable (through multiple tiers)
+            right to exercise the copyright, publicity, database rights or any
+            other rights you have in your information, in any media now known or
+            not currently known, with respect to your information. We will only
+            use your information in accordance with the Terms and other polices
+            of platform applicable to the use of the platform.</font></font></font></p>
+        </ol>
+        <p class="western" style="margin-top: 0.9cm; margin-bottom: 0.45cm; line-height: 100%; background: #ffffff">
+        <font color="#333333"><font face="SF Compact Display, serif"><font size="4" style="font-size: 13pt">USER&rsquo;S
+        CONTENT</font></font></font></p>
+        <ol>
+            <li><p class="western" style="margin-top: 0.49cm; margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">It
+            is hereby clarified that the content that you upload or post will
+            become our property and you grant us the worldwide, perpetual and
+            transferable rights to such content, including but not limited to
+            Feedback. We shall be entitled to, consistent with our Privacy
+            Policy as adopted in accordance with applicable law, use the content
+            or any of its elements for any type of use forever, including but
+            not limited to promotional and advertising purposes and in any media
+            whether now known or hereafter devised, including the creation of
+            derivative works that may include any content you provide and are
+            not entitled to any payment or other compensation for such use. You
+            also grant us the right to sub-license these rights, and the right
+            to bring an action against you for infringement of these rights. We
+            reserve the right to edit or remove any material submitted/ posted
+            to the platform, or stored on our servers, or hosted or published
+            upon the platform.</font></font></font></p>
+            <li><p class="western" style="margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">Before
+            posting any form of content on the platform, the User must verify
+            the truthfulness and authenticity of the particulars of the content,
+            including the time, place, and nature. Before allowing such content
+            to be posted on the platform, we have the right and authority to
+            verify the accuracy of such particulars related to the content with
+            the respective sources provided by the user posting such content, if
+            we feel that there is a need to check such accuracy. We have the
+            right to upload content on behalf of third parties, subsequent to
+            collecting such information and verifying it if we deem it
+            necessary. Notwithstanding this, we can in no way be held liable for
+            any false or misleading information.</font></font></font></p>
+            <li><p class="western" style="margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">In
+            case any content is considered to be unlawful or against the law
+            within any jurisdiction in which the platform can be seen and
+            accessed, it shall be removed forthwith by us on being intimated by
+            the authorities of the respective jurisdiction that such content is
+            deemed unlawful. We cannot be held liable or questioned for the
+            same.</font></font></font></p>
+            <li><p class="western" style="margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">All
+            information, content or data posted on the platform by the User
+            posted is the sole responsibility of the user and by posting such
+            content or information on the platform, you warrant and represent
+            that you have valid rights and title in any and all content or
+            information that you post on the platform and you have not infringed
+            on any IPR belonging to any person and, in this respect, you will
+            indemnify the Company or its affiliates for all claims arising out
+            of any content that you post on the platform.</font></font></font></p>
+            <li><p class="western" style="margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">Posting/uploading
+            of any information or material or content on the platform, which is
+            harmful, defamatory, obscene, pornographic, libellous, abusive
+            content, invasive of another's privacy, profane, hateful, or
+            racially, ethnically objectionable, disparaging, or otherwise
+            unlawful in any manner is prohibited and any user found to be
+            involved in such activity on the Platform will solely be liable for
+            actions under the applicable laws.</font></font></font></p>
+        </ol>
+        <p class="western" style="margin-top: 0.9cm; margin-bottom: 0.45cm; line-height: 100%; background: #ffffff">
+        <font color="#333333"><font face="SF Compact Display, serif"><font size="4" style="font-size: 13pt">LIMITED
+        LICENSE.</font></font></font></p>
+        <p class="western" style="margin-top: 0.45cm; margin-bottom: 0.49cm; line-height: 0.64cm; background: #ffffff">
+        <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">All
+        contents on this site are protected by copyright. Except as
+        specifically permitted herein, no portion of the information on this
+        web site may be reproduced in any form, or by any means, without
+        prior written permission from Tech Closet. Visitors or users are not
+        permitted to modify, distribute, publish, transmit or create
+        derivative works of any material found on this site for any public or
+        commercial purposes.</font></font></font></p>
+        <p class="western" style="margin-top: 0.9cm; margin-bottom: 0.45cm; line-height: 100%; background: #ffffff">
+        <font color="#333333"><font face="SF Compact Display, serif"><font size="4" style="font-size: 13pt">Accounts</font></font></font></p>
+        <ol>
+            <li><p class="western" style="margin-top: 0.49cm; margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">When
+            you create an account with us, you must provide us information that
+            is accurate, complete, and current at all times. Failure to do so
+            constitutes a breach of the Terms, which may result in immediate
+            termination of your account on our Service.</font></font></font></p>
+            <li><p class="western" style="margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">You
+            are responsible for safeguarding the password that you use to access
+            the Service and for any activities or actions under your password,
+            whether your password is with our Service or a third-party service.</font></font></font></p>
+            <li><p class="western" style="margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">You
+            agree not to disclose your password to any third party. You must
+            notify us immediately upon becoming aware of any breach of security
+            or unauthorized use of your account.</font></font></font></p>
+            <li><p class="western" style="margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">You
+            may not use as a username the name of another person or entity or
+            that is not lawfully available for use, a name or trade mark that is
+            subject to any rights of another person or entity other than you
+            without appropriate authorization, or a name that is otherwise
+            offensive, vulgar or obscene.</font></font></font></p>
+        </ol>
+        <p class="western" style="margin-top: 0.9cm; margin-bottom: 0.45cm; line-height: 100%; background: #ffffff">
+        <font color="#333333"><font face="SF Compact Display, serif"><font size="4" style="font-size: 13pt">Intellectual
+        Property</font></font></font></p>
+        <ol>
+            <li><p class="western" style="margin-top: 0.49cm; margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">The
+            Service and its original content (excluding Content provided by
+            users), features and functionality are and will remain the exclusive
+            property of Tech Closet and its licensors. The Service is protected
+            by copyright, trademark, and other laws of both the India and
+            foreign countries. Our trademarks and trade dress may not be used in
+            connection with any product or service without the prior written
+            consent of Tech Closet.</font></font></font></p>
+            <li><p class="western" style="margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">Tech
+            Closet has a legal title to and all other rights pertaining to and
+            in connection with the mark </font></font></font><font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">&ldquo;</font></font></font><font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt"><b>TECH
+            CLOSET</b></font></font></font><font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">&rdquo;
+            (&ldquo;</font></font></font><font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt"><b>Trademark</b></font></font></font><font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">&rdquo;)</font></font></font><font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">
+            as well as the logo depicted below<br/>
+        </font></font></font><img src="https://raw.githubusercontent.com/Tech-closet/techclosetonline.github.io/main/logo_circular.png" name="Picture 2" align="bottom" width="134" height="134" border="0"/>
+        </p>
+            <li><p class="western" style="margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">You
+            may use the Trademarks, in text, and the Tech Closet Logo as an
+            image, to refer fairly and accurately to Tech Closet, its products
+            and its services, subject to the guidelines below.</font></font></font></p>
+            <ol type="a">
+                <li><p class="western" style="margin-bottom: 0cm; line-height: 0.64cm; background: #ffffff">
+                <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">The
+                Tech Closet Logo is reserved for use by Tech Closet and those Tech
+                Closet partners and licensees that have a written agreement with
+                Tech Closet that specifically authorizes use of the Tech Closet
+                Logo. No other use of Tech Closet Logo is permitted.</font></font></font></p>
+                <li><p class="western" style="margin-bottom: 0cm; line-height: 0.64cm; background: #ffffff">
+                <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">You
+                may not use the Trademark and/or the Tech Closet Logo in a manner
+                likely to mislead consumers as to your relationship with Tech
+                Closet, as to Tech Closet&rsquo;s sponsorship or endorsement of
+                your company, products or services, or as to the origin of your
+                products or services.</font></font></font></p>
+                <li><p class="western" style="margin-bottom: 0cm; line-height: 0.64cm; background: #ffffff">
+                <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">Any
+                use of the Trademark that is likely to confuse or mislead the
+                public is unlawful and expressly prohibited.</font></font></font></p>
+            </ol>
+            <li><p class="western" style="margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">Tech
+            Closet shall respond to notices of alleged copyright infringement
+            that comply with applicable law and are properly provided to us. If
+            you believe that your content has been copied in a way that
+            constitutes copyright infringement, please provide us with the
+            following information:</font></font></font></p>
+            <ol type="a">
+                <li><p class="western" style="margin-bottom: 0cm; line-height: 0.64cm; background: #ffffff">
+                <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">physical
+                or electronic signature of the copyright owner or a person
+                authorized to act on their behalf;</font></font></font></p>
+                <li><p class="western" style="margin-bottom: 0cm; line-height: 0.64cm; background: #ffffff">
+                <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">identification
+                of the copyrighted work claimed to have been infringed;</font></font></font></p>
+                <li><p class="western" style="margin-bottom: 0cm; line-height: 0.64cm; background: #ffffff">
+                <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">identification
+                of the material that is claimed to be infringing or to be the
+                subject of infringing activity and that is to be removed or access
+                to which is to be disabled, and information reasonably sufficient
+                to permit us to locate the material;</font></font></font></p>
+                <li><p class="western" style="margin-bottom: 0cm; line-height: 0.64cm; background: #ffffff">
+                <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">your
+                contact information, including your address, telephone number, and
+                an email address;</font></font></font></p>
+                <li><p class="western" style="margin-bottom: 0cm; line-height: 0.64cm; background: #ffffff">
+                <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">a
+                statement by you that you have a good faith belief that use of the
+                material in the manner complained of is not authorized by the
+                copyright owner, its agent, or the law</font></font></font></p>
+                <li><p class="western" style="margin-bottom: 0cm; line-height: 0.64cm; background: #ffffff">
+                <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">a
+                statement that the information in the notification is accurate,
+                and, under penalty of perjury, that you are authorized to act on
+                behalf of the copyright owner</font></font></font></p>
+            </ol>
+            <li><p class="western" style="margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">We
+            reserve the right to remove content alleged to be infringing without
+            prior notice and at our sole discretion. In appropriate
+            circumstances, Tech Closet shall also terminate a user's account if
+            the user is determined to be a repeat infringer. For notice of
+            alleged copyright infringement appearing on the Services contact us
+            at&nbsp;</font></font></font><font color="#0000ff"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt"><u>wardrobegvr@gmail.com</u></font></font></font><font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">.</font></font></font></p>
+        </ol>
+        <p class="western" style="margin-top: 0.9cm; margin-bottom: 0.45cm; line-height: 100%; background: #ffffff">
+        <font color="#333333"><font face="SF Compact Display, serif"><font size="4" style="font-size: 13pt">Links
+        to other websites</font></font></font></p>
+        <ol>
+            <li><p class="western" style="margin-top: 0.49cm; margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">Our
+            Service may contain links to third-party web sites or services that
+            are not owned or controlled by Tech Closet.</font></font></font></p>
+            <li><p class="western" style="margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">Tech
+            Closet has no control over, and assumes no responsibility for, the
+            content, privacy policies, or practices of any third party web sites
+            or services. You further acknowledge and agree that Tech Closet
+            shall not be responsible or liable, directly or indirectly, for any
+            damage or loss caused or alleged to be caused by or in connection
+            with use of or reliance on any such content, goods or services
+            available on or through any such web sites or services.</font></font></font></p>
+            <li><p class="western" style="margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">We
+            strongly advise you to read the terms and conditions and privacy
+            policies of any third-party web sites or services that you visit.</font></font></font></p>
+        </ol>
+        <p class="western" style="margin-top: 0.9cm; margin-bottom: 0.45cm; line-height: 100%; background: #ffffff">
+        <font color="#333333"><font face="SF Compact Display, serif"><font size="4" style="font-size: 13pt">Termination</font></font></font></p>
+        <ol>
+            <li><p class="western" style="margin-top: 0.49cm; margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">We
+            may terminate or suspend your account immediately, without prior
+            notice or liability, for any reason whatsoever, including without
+            limitation if you breach the Terms.</font></font></font></p>
+            <li><p class="western" style="margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">Upon
+            termination, your right to use the Service will immediately cease.
+            If you wish to terminate your account, you may simply discontinue
+            using the Service</font></font></font></p>
+        </ol>
+        <p class="western" style="margin-top: 0.9cm; margin-bottom: 0.45cm; line-height: 100%; background: #ffffff">
+        <font color="#333333"><font face="SF Compact Display, serif"><font size="4" style="font-size: 13pt">Limitation
+        of Liability</font></font></font></p>
+        <ol>
+            <li><p class="western" style="margin-top: 0.49cm; margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">In
+            no event shall the Company, nor its directors, employees, partners,
+            agents, suppliers, or affiliates, be liable for any indirect,
+            incidental, special, consequential or punitive damages, including
+            without limitation, loss of profits, data, use, goodwill, or other
+            intangible losses, resulting from (i) your access to or use of or
+            inability to access or use the Services; (ii) any conduct or content
+            of any third party on the Services; (iii) any content obtained from
+            the Services; and (iv) unauthorized access, use or alteration of
+            your transmissions or content, whether based on warranty, contract,
+            tort (including negligence) or any other legal theory, whether or
+            not we have been informed of the possibility of such damage, and
+            even if a remedy set forth herein is found to have failed of its
+            essential purpose.</font></font></font></p>
+            <li><p class="western" style="margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">Tech
+            Closet shall not be liable for any damages, loss or injury arising
+            in connection with these Terms and/or your use of, or the inability
+            to use, the Tech Closet&rsquo;s mobile application (hereinafter
+            referred as &ldquo;</font></font></font><font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt"><b>App</b></font></font></font><font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">&rdquo;),
+            or any function of the App, howsoever caused and whether arising in
+            contract, tort (including negligence) or otherwise.</font></font></font></p>
+            <li><p class="western" style="margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">While
+            we use reasonable efforts to ensure that the App is free from
+            viruses and other malicious content, neither we nor any other party
+            involved in producing or delivering the App assumes any
+            responsibility, nor shall be liable for any damage to, or viruses
+            that may infect, your computer equipment or other property on
+            account of your access to, use of, the App or your downloading of
+            any materials, data, text, images, video or audio from the App or
+            any other damage as mentioned in&nbsp;</font></font></font><font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt"><b>Annexure
+            I</b></font></font></font><font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">.
+            Except where required by applicable law, Tech Closet shall not be
+            liable to any person for any loss or damage they suffer as a result
+            of viruses or other malicious or harmful content that they access
+            from or via the App.</font></font></font></p>
+            <li><p class="western" style="margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">When
+            the App is used on a mobile device, like all mobile apps, in order
+            to operate will make use of your mobile data connection. You are
+            advised to check charges and terms with your communications service
+            provider if using the App abroad or in circumstances where roaming
+            or data charges may apply. We do not receive any commission or other
+            payment or rewards from communications with service providers in
+            respect of the use of the App on devices connected to their network.
+            We are not liable for any data or other charges incurred as a result
+            of your use of the App.</font></font></font></p>
+        </ol>
+        <p class="western" style="margin-top: 0.9cm; margin-bottom: 0.45cm; line-height: 100%; background: #ffffff">
+        <font color="#333333"><font face="SF Compact Display, serif"><font size="4" style="font-size: 13pt">Disclaimer</font></font></font></p>
+        <ol>
+            <li><p class="western" style="margin-top: 0.49cm; margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">Your
+            use of the Services are at your sole risk. The Services are provided
+            on an &ldquo;as is&rdquo; and &ldquo;as available&rdquo; basis. The
+            Services are provided without warranties of any kind, whether
+            express or implied, including, but not limited to, implied
+            warranties of merchantability, fitness for a particular purpose,
+            non-infringement or course of performance.</font></font></font></p>
+            <li><p class="western" style="margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">Tech
+            Closet and its subsidiaries, affiliates, and its licensors do not
+            warrant that a) the Services will function uninterrupted, secure or
+            available at any particular time or location; b) any errors or
+            defects will be corrected; c) the Services are free of viruses or
+            other harmful components; or d) the results of using the Services
+            will meet your requirements.</font></font></font></p>
+        </ol>
+        <p class="western" style="margin-top: 0.9cm; margin-bottom: 0.45cm; line-height: 100%; background: #ffffff">
+        <font color="#333333"><font face="SF Compact Display, serif"><font size="4" style="font-size: 13pt">Cookies</font></font></font></p>
+        <p class="western" style="margin-top: 0.45cm; margin-bottom: 0.49cm; line-height: 0.64cm; background: #ffffff">
+        <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">A
+        cookie is a small data file that certain websites write to your hard
+        drive when you visit them. A cookie file can contain information such
+        as a user ID that the site uses to track the pages you&rsquo;ve
+        visited, but the only personal information a cookie can contain is
+        information you supply yourself. A cookie can&rsquo;t read data off
+        your hard disk or read cookie files created by other sites. Some
+        parts of the website may use cookies to track user traffic patterns.
+        We do this in order to determine the usefulness of the information to
+        our users and to see how effective our navigational structure is in
+        helping users reach that information. Tech Closet does not correlate
+        this information with data about individual users, nor does it share
+        this information or sell it to any third party.</font></font></font></p>
+        <p class="western" style="margin-top: 0.9cm; margin-bottom: 0.45cm; line-height: 100%; background: #ffffff">
+        <font color="#333333"><font face="SF Compact Display, serif"><font size="4" style="font-size: 13pt">Governing
+        Laws</font></font></font></p>
+        <ol>
+            <li><p class="western" style="margin-top: 0.49cm; margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">These
+            Terms shall be governed and construed in accordance with the
+            applicable laws of India, without regard to its conflict of law
+            provisions.</font></font></font></p>
+            <li><p class="western" style="margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">Our
+            failure to enforce any right or provision of these Terms will not be
+            considered a waiver of those rights. If any provision of these Terms
+            is held to be invalid or unenforceable by a court, the remaining
+            provisions of these Terms will remain in effect. These Terms
+            constitute the entire agreement between us regarding our Service,
+            and supersede and replace any prior agreements we might have between
+            us regarding the Service.</font></font></font></p>
+        </ol>
+        <p class="western" style="margin-top: 0.9cm; margin-bottom: 0.45cm; line-height: 100%; background: #ffffff">
+        <font color="#333333"><font face="SF Compact Display, serif"><font size="4" style="font-size: 13pt">Changes
+        to Terms and Conditions</font></font></font></p>
+        <ol>
+            <li><p class="western" style="margin-top: 0.49cm; margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">We
+            reserve the right, at our sole discretion, to modify or replace
+            these Terms at any time. If a revision is material we shall notify
+            you by an email to the email address associated with your account at
+            that time at least 15 days&rsquo; notice prior to any new terms
+            taking effect. What constitutes a material change will be determined
+            at our sole discretion.</font></font></font></p>
+            <li><p class="western" style="margin-bottom: 0.45cm; line-height: 0.64cm; background: #ffffff">
+            <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">By
+            continuing to access or use our Service after those revisions become
+            effective, you agree to be bound by the revised terms. If you do not
+            agree to the new terms, please stop using the Service.</font></font></font></p>
+        </ol>
+        <p class="western" style="margin-top: 0.9cm; margin-bottom: 0.45cm; line-height: 100%; background: #ffffff">
+        <font color="#333333"><font face="SF Compact Display, serif"><font size="4" style="font-size: 13pt">Questions
+        or Complaints</font></font></font></p>
+        <p class="western" style="margin-top: 0.45cm; margin-bottom: 0.49cm; line-height: 0.64cm; background: #ffffff">
+        <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">If
+        you have any question or complaints about the processing of your
+        personal data, write to us at&nbsp;</font></font></font><font color="#0000ff"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt"><u>wardrobegvr@gmail.com</u></font></font></font><font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">.
+        Our team will be happy to assist you.</font></font></font></p>
+        <p class="western" style="margin-top: 0.9cm; margin-bottom: 0.45cm; line-height: 100%; background: #ffffff">
+        <font color="#333333"><font face="SF Compact Display, serif"><font size="4" style="font-size: 13pt">COMPANY
+        CONTACT AND GRIVANCE OFFICER INFORMATION</font></font></font></p>
+        <p class="western" style="margin-top: 0.45cm; margin-bottom: 0.49cm; line-height: 0.64cm; background: #ffffff">
+        <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">Tech
+        Closet Technologies LLP.<br/>
+        C/o </font></font></font><font color="#ff0000"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">741,
+        6</font></font></font><font color="#ff0000"><sup><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">th</font></font></sup></font><font color="#ff0000"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">
+        Avenue, Gaur City 1,Greater Noida West, Gautam Buddh Nagar, Uttar
+        Pradesh &ndash; 201308</font></font></font><font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt"><br/>
+        Email:&nbsp;</font></font></font><font color="#0000ff"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt"><u>wardrobegvr@gmail.com</u></font></font></font></p>
+        <p class="western" style="margin-bottom: 0cm; line-height: 100%"><font color="#000000"><font face="SF Compact Display, serif"><font size="4" style="font-size: 13pt"><br/>
+        <br/>
+        </font></font></font><br/>
+        
+        </p>
+        <p class="western" style="margin-top: 0.45cm; margin-bottom: 0.49cm; line-height: 0.64cm; background: #ffffff">
+        <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">Any
+        complaints, abuse or concerns with regards to content and /or comment
+        or breach of these Terms shall be immediately informed to [Vatsal
+        Tulshyan] (&quot;Grievance Officer&quot;) through email at
+        [wardrobegvr@gmail.com] with the electronic signature or in writing
+        at the following address to:</font></font></font></p>
+        <p class="western" style="margin-bottom: 0cm; line-height: 100%"><font color="#000000"><font face="SF Compact Display, serif"><font size="4" style="font-size: 13pt"><br/>
+        </font></font></font><br/>
+        
+        </p>
+        <p class="western" style="margin-top: 0.45cm; margin-bottom: 0.49cm; line-height: 0.64cm; background: #ffffff">
+        <font color="#333333"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">Grievance
+        Officer,<br/>
+        Tech Closet Technologies LLP<br/>
+        </font></font></font><font color="#ff0000"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">741,
+        6</font></font></font><font color="#ff0000"><sup><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">th</font></font></sup></font><font color="#ff0000"><font face="SF Compact Display, serif"><font size="2" style="font-size: 10pt">
+        Avenue, Gaur City 1,Greater Noida West, Gautam Buddh Nagar, Uttar
+        Pradesh &ndash; 201308</font></font></font></p>
+        <p class="western" style="margin-bottom: 0.28cm; line-height: 108%"><br/>
+        <br/>
+        
+        </p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- The bottom navbar code is here : - -->
+<div class="container" style="margin-top: 2%; margin-bottom: 2%; background-color: #ff3535; border-radius: 1em; width: 100%;"  >
+  <div class="row" >
+    <div class="col-md left-navbar" style="text-align: left;">
+      <img src="banner_footer.png" class="footer-image">
+      <!-- <ul style="list-style-type:none;"> -->
+        <p>
+          <a href="/privacy_page.html" class="hyperlinks">Privacy Policy</a>
+        </p>
+        <p>
+          <a href="/privacy_page.html" class="hyperlinks">Terms and conditions</a>
+        </p>
+    </div>
+    <div class="col-md right-navbar" style="text-align: right;">
+     <h3 id="right-bottom-navbar-heading">Keep connected</h3>
+     <ul style="list-style-type:none;">
+      <a href="#" class="fa fa-instagram"></a>
+      <a href="#" class="fa fa-youtube"></a>
+    </ul>
+    </div>
+  </div>
+</div>
+
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+
+  </script>
+</body>
+</html>
