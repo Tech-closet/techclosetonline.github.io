@@ -23,6 +23,56 @@
 <link rel = "icon" href =  
 "https://raw.githubusercontent.com/Tech-closet/techclosetonline.github.io/main/logo_circular.png" 
         type = "image/x-icon"> 
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+</script>
+<style>
+  #cookieConsent {
+    background-color: rgba(20,20,20,0.8);
+    min-height: 26px;
+    font-size: 14px;
+    color: #ccc;
+    line-height: 26px;
+    padding: 8px 0 8px 30px;
+    font-family: "Trebuchet MS",Helvetica,sans-serif;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* display: none; */
+    z-index: 9999;
+}
+#cookieConsent a {
+    color: #4B8EE7;
+    text-decoration: none;
+}
+#closeCookieConsent {
+    float: right;
+    display: inline-block;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    margin: -15px 0 0 0;
+    font-weight: bold;
+}
+#closeCookieConsent:hover {
+    color: #FFF;
+}
+#cookieConsent a.cookieConsentOK {
+    background-color: #F1D600;
+    color: #000;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 0 20px;
+    cursor: pointer;
+    float: right;
+    margin: 0 60px 0 10px;
+}
+#cookieConsent a.cookieConsentOK:hover {
+    background-color: #E0C91F;
+} 
+
+  </style>
 </head>
 <body class="dark-mode">
   
@@ -88,6 +138,10 @@
        <br> Technology coming to your Closet. -->
         <!-- <br>Beta Out Soon! -->
       </p>
+    </div>
+    <div id="cookieConsent">
+      <div id="closeCookieConsent">x</div>
+      This website is using cookies. <a href="/privacy-policy.html" onclick="document.getElementById('closeCookieConsent').style.display='none'">More info</a>. <a class="cookieConsentOK">Cool, that's fine</a>
     </div>
     <div class="col" style="margin-left: 10rem;margin-top:4rem;">
       <p class="banner-desc" >
@@ -252,6 +306,14 @@
       duration:800,
       delay:500
     });
+    $(document).ready(function(){   
+    setTimeout(function () {
+        $("#cookieConsent").fadeIn(200);
+     }, 4000);
+    $("#closeCookieConsent, .cookieConsentOK").on('click', function() {
+        $("#cookieConsent").remove();
+    }); 
+}); 
   </script>
 </body>
 </html>
